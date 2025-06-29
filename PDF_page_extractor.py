@@ -34,8 +34,8 @@ def extract_page_range(folder_path, output_folder, start_page, end_page):
                 print(f"Error processing {filename}: {e}")
 
 # Example usage
-input_folder = r"C:\Users\shubh\Desktop\test"
-output_folder = r"C:\Users\shubh\Desktop\extracted_pages"
+input_folder = r"Enter the path to your input folder here"
+output_folder = r"Entrer the path to your output folder here"
 
-# Extract pages 2 through 8
-extract_page_range(input_folder, output_folder, start_page=1, end_page=5)
+# Extract pages 1 through 2
+extract_page_range(input_folder, output_folder, start_page=1, end_page=2)

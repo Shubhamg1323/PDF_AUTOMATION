@@ -36,8 +36,8 @@ def extract_specific_pages(folder_path, output_folder, page_numbers):
                 print(f"Error processing {filename}: {e}")
 
 # Example usage
-input_folder = r"C:\Users\shubh\Desktop\test"
-output_folder = r"C:\Users\shubh\Desktop\extracted_pages"
-pages_to_extract = [2, 4, 6, 7]
+input_folder = r"Enter the path to your input folder here"
+output_folder = r"Enter the path to your output folder here"
+pages_to_extract = list(range(1, 4))  # Extract pages 1, 2, and 3
 
 extract_specific_pages(input_folder, output_folder, pages_to_extract)
